@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalAI DAO - Decentralized Legal Assistance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+            text-align: center;
+        }
+        #popup img {
+            width: 200px;
+            margin-top: 10px;
+        }
+        .close-btn {
+            background-color: red;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .close-btn:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 Welcome to LegalAI DAO</h1>
+        <p>The Future of Decentralized Legal Assistance</p>
+
+        <div class="section">
+            <h2>Why LegalAI DAO?</h2>
+            <p>Web3 is booming, but legal issues and smart contract disputes are major roadblocks. Traditional legal services are expensive, slow, and not Web3-native.</p>
+            <ul>
+                <li>✅ <b>AI-powered Smart Contract Audits</b> – Secure and verify contracts.</li>
+                <li>✅ <b>DAO-based Dispute Resolution</b> – Fair, trustless arbitration.</li>
+                <li>✅ <b>Affordable Legal Assistance</b> – AI-driven insights.</li>
+                <li>✅ <b>Decentralized Governance</b> – Community-led decision-making.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>How It Works</h2>
+            <p>We combine AI, blockchain, and DAO governance to create a transparent legal system for Web3.</p>
+            <ul>
+                <li>🔹 AI analyzes smart contracts for risks.</li>
+                <li>🔹 DAO members vote on dispute resolutions.</li>
+                <li>🔹 Legal experts validate AI findings.</li>
+                <li>🔹 Web3 wallet integration ensures seamless access.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💰 Support Us</h2>
+            <p>Your support will help us build and launch LegalAI DAO. Click below to donate via Bitcoin.</p>
+            <button class="button" onclick="showPopup()">Support Us</button>
+        </div>
+    </div>
+
+    <div id="popup">
+        <h2>Support LegalAI DAO</h2>
+        <p>Send Bitcoin to:</p>
+        <strong>bc1qnlvu2nkwyfszefvcgvhmnxk0j7rczdfqm2g20j</strong>
+        <br><br>
+        
+        <br><br>
+        <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
